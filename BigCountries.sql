@@ -1,0 +1,3 @@
+SELECT World.name, World.population, World.area 
+FROM World 
+WHERE population >= 25000000 or area >= 3000000;
